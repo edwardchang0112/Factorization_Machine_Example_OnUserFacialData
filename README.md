@@ -20,11 +20,9 @@ $ cd fastFM
 $ make                      # build with default python version (python)
 
 $ PYTHON=python3 make       # build with custom python version (python3)
-
 6. Install fastFM
 
 $ pip install .
-
 7. Others requirements can be install in normal way.
 
 This provides you an easy example, you can follow the structure, and replace with your data or make some modifications to fit your applications.
