@@ -75,18 +75,6 @@ def split_data(df):
     oh_x_test = onehot_encoding(x_test, header_list)
     return x_train, y_train, x_test, y_test, oh_x_train, oh_x_test
 
-def split_data_2(df):
-    train, test = train_test_split(df, test_size=0.1)
-    #print("train = ", train)
-    target_factor = 'sc_day_month'
-    drop_factor = ['used_day_month', 'used_freq_day', 'used_day_month',
-                   'sc_times', 'no_sc_times', 'sc_days', 'no_sc_days', 'sc_freq_day']
-    train_1 = train.drop(drop_factor, axis=1)
-
-    y_train = train_1[target_factor]
-    x_train = train_1.drop(target_factor, axis=1)
-    return x_train, y_train
-
 def saveModel(model_name, model_fit):
     with open(str(model_name)+'.pickle', 'wb') as model:
         pickle.dump(model_fit, model)
