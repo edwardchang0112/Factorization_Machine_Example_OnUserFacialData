@@ -27,6 +27,6 @@ Install fastFM
 
 $ pip install .
 
-Others requirements can be install in normal eay.
+Others requirements can be install in normal way.
 
 This provides you an easy example, you can follow the structure, and replace with your data or make some modifications to fit your applications.
