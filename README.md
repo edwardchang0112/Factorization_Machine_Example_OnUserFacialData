@@ -1,5 +1,5 @@
 # Factorization_Machine_Example_OnUserFacialData
-In this example, there is an use case for Factorization machine, which try to figure out what kind of user might be the target user (Frequent product use).
+In this example, there is a use case for Factorization machine, which try to figure out what kind of user might be the target user (Frequent product use).
 
 ## Setting
 
